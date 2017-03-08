@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
-export PATH=$PATH:/usr/local/opt/go/libexec/bin:/Users/wgillmer/Code/Go/bin/
+export PATH=$PATH:/usr/local/opt/go/libexec/bin:/Users/torndorff/Code/Go/bin/
 export PATH=$PATH:$HOME/Code/bin
 
 export GOPATH=$HOME/workspace/go
@@ -83,10 +83,10 @@ export PATH=$PATH:$GOPATH:$GOROOT
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias j=autojump
+#alias j=autojump
 alias fgrep=fgrep --colour=always
-alias vim=nvim
-alias vi=nvim
+#alias vim=nvim
+#alias vi=nvim
 
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
 export EDITOR='nvim'
@@ -97,13 +97,13 @@ export DISABLE_AUTO_TITLE="true"
 
 # https://github.com/sjl/z-zsh
 # https://github.com/rupa/z
-. /Users/wgillmer/Code/bin/z.sh
-function precmd () {
-   z --add "$(pwd -P)"
-}
+#. /Users/wgillmer/Code/bin/z.sh
+#function precmd () {
+#   z --add "$(pwd -P)"
+#}
 
 autoload -U colors && colors
 
-export NVM_DIR="/Users/wgillmer/.nvm"
+export NVM_DIR="/Users/torndorff/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
