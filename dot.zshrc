@@ -89,7 +89,7 @@ alias fgrep=fgrep --colour=always
 #alias vi=nvim
 
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
-export EDITOR='nvim'
+export EDITOR='vim'
 
 # Stop zsh from auto renaming windows
 export DISABLE_AUTO_TITLE="true"
